@@ -50,7 +50,8 @@
 import openpyxl
 from openpyxl.chart import LineChart, Reference
 
-#...
+#... 中間略過
+
         flow_volume_d_list = my_data_dict[sid]['flow_volume_d_list']
         day_list = my_data_dict[sid]['day_list']
         flow_volume_m = my_data_dict[sid]['flow_volume_m']
@@ -81,6 +82,11 @@ from openpyxl.chart import LineChart, Reference
 - 這一個寫法在書中有介紹到，不過目前倒是沒有很適合我的情境
 - 比較合適的情境應該是我以前曾經做過的：excel的樣版檔格式已經做好了，資料填入就可以印報表使用，這時指定row, column的方式將會很方便!!
 ```py
+import openpyxl
+from openpyxl.chart import LineChart, Reference
+
+#... 中間略過
+
         flow_volume_d_list = my_data_dict[sid]['flow_volume_d_list']
         day_list = my_data_dict[sid]['day_list']
         flow_volume_m = my_data_dict[sid]['flow_volume_m']
@@ -117,6 +123,11 @@ from openpyxl.chart import LineChart, Reference
 ### 最後，我再把抽水量的趨勢圖一併整合到excel中，這是在csv檔中做不到的事情
 - 程式會長這個樣子
 ```py
+import openpyxl
+from openpyxl.chart import LineChart, Reference
+
+#... 中間略過
+
         flow_volume_d_list = my_data_dict[sid]['flow_volume_d_list']
         day_list = my_data_dict[sid]['day_list']
         flow_volume_m = my_data_dict[sid]['flow_volume_m']
